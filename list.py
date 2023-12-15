@@ -1,15 +1,13 @@
-list1 = ["redmi","oppo","realme"]
-list2 = ["moblie","laptop","ipad"]
-list3 = ["kasi","reddy","naveen"]
-index_list = ["a","b","c"]
-final_list = [list1,list2,list3]
 
-user_input = input("where to? ")
-letter_index = index_list.index(user_input[0])
-letter_index = int(user_input[1])-1
-final_list[number_index][letter_index]="kasi"
+# python lists   list is []-----> only
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
 
-print(f"{list1}\n{list2}\n{list3}")
+print(list1)
+print(list2)
+print(list3)
+
 
 
 
